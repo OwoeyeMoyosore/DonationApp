@@ -1,0 +1,100 @@
+// Section One
+.section_one {
+  display: flex;
+  width: 100%;
+  gap: 4.9rem;
+  padding-bottom: 4rem;
+  // padding-inline: 10rem;
+
+  @media (max-width: 480px) {
+    display: block;
+  }
+}
+.para {
+  color: #000728;
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: normal;
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
+.para_two {
+  color: #000728;
+  font-size: 1.125;
+  font-weight: 400;
+  line-height: 148%;
+  padding-block-start: 2.5rem;
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    padding-block-start: 1rem;
+  }
+}
+.frame {
+  border-radius: 1rem;
+  width: 481px;
+  height: 406px;
+  @media (max-width: 480px) {
+    width: 342px;
+    height: 296px;
+  }
+}
+.main_one {
+  @media (max-width: 480px) {
+    margin-block-end: 3.5rem;
+  }
+}
+
+
+
+// Section 2
+.how {
+  color: #000728;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.simple {
+  color: #000728;
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.main_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.phones{
+    display: flex;
+    gap: 4.5rem;
+    border-radius: 1rem;
+    background-color: #F3F3F3;
+    padding-inline: 1rem ;
+    padding-block: 2.4rem;
+    margin-block: 3rem;
+
+    @media (max-width:480px){
+        display: block;
+    }
+}
+.image{
+    @media (max-width:480px){
+        margin-bottom: 5rem;
+    }
+}
+
+.sub{
+    color: #000728;
+text-align: center;
+font-size: 1.3rem;
+font-weight: 700;
+line-height: 1.5rem; /* 26.435px */
+padding-block-start: 3.2rem;
+}
