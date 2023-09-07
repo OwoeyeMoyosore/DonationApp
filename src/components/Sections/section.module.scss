@@ -98,3 +98,133 @@ font-weight: 700;
 line-height: 1.5rem; /* 26.435px */
 padding-block-start: 3.2rem;
 }
+
+
+//Section 3
+.section_three{
+  padding-block: 3rem;
+  display: flex;
+  width: 100%;
+  gap: 10rem;
+  padding-bottom: 4rem;
+  // padding-inline: 10rem;
+  @media (max-width: 480px) {
+    display: flex!important;
+    flex-direction: column-reverse;
+    gap: 4.2rem;
+  }
+}
+.main_three{
+  width: 100%;
+}
+
+.first{
+  width: 327.3px;
+  position: absolute;
+  left: 3rem;
+  margin-block-start: 2rem; 
+  top: 4rem;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+.first img{
+  width: 314.447px;
+}
+.group{
+  background: #F5F5F5;
+  padding: 13px;
+}
+.help{
+  color: #000728;
+font-size: 13.34px;
+font-weight: 700;
+line-height: 19.742px
+}
+
+.future{
+  color: #000728;
+font-size: 13.34px;
+font-weight: 400;
+line-height: 19.742px
+}
+
+
+.container {
+  position: relative;
+}
+
+// .slanted_image_container {
+//   width: 300px; /* Adjust the width as needed */
+//   height: 300px; /* Adjust the height as needed */
+//   // overflow: hidden;
+// }
+
+.slanted_image_container  {
+  width: 100%;
+  height: auto;
+  // transform: skew(15deg); /* Adjust the angle as needed */
+  transform: rotate(-10deg);
+  transform-origin: top left;
+  border-radius: 13.34px;
+background: #FFF;
+padding: 13px;
+width: 340px;
+position: absolute;
+top: 10rem;
+
+@media (max-width: 480px) {
+  position: relative;
+  top: 0;
+  transform: rotate(0deg);
+}
+}
+
+.slanted_image_container  img{
+  width: 100%;
+}
+
+// .red_rectangle {
+//   width: 30px;
+//   height: 40px;
+//   background-color: red;
+//   position: absolute;
+//   top: 100%; /* Place it below the slanted image */
+//   left: 0; /* Align with the left edge of the container */
+// }
+
+.donate{
+  display: flex;
+padding: 6.67px 26.679px;
+justify-content: center;
+align-items: center;
+gap: 6.67px;
+border-radius: 41.686px;
+background: #525252;
+color: white;
+border-color: none;
+outline: none;
+box-shadow: none;
+}
+
+.second{
+  align-items: center;
+  display: flex;
+  align-content: center;
+  margin-block: 10rem;
+
+  @media (max-width:480px){
+    margin-block: 0;
+  }
+}
+.see{
+  color: #000728;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 129.023%; /* 51.609px */
+}
+
+
+
